@@ -1,34 +1,15 @@
-
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(34, 34, 34);
+  background-color: bisque;
+  border-radius: 30px;
 }
-h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60px;
-}
-main{
-    background-color: aqua;
-    padding: 10px;
-    
-    width: 600px;
-    p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(53, 0, 27);
-  background-color: rgb(255, 255, 172);
-  margin: 1%;
-}
+button{
+  background-color: aquamarine;
+  color: blue;
 
-button {
-
-  background-color: grey; /* Color inicial del botón */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border: 30%;
 }
- button:hover{
-  font-size: larger;  
-  background-color: blue; /* Color del botón cuando el ratón pasa por encima */
- }
+button:hover{
+  background-color: rgb(17, 74, 55);
+  color: antiquewhite;
 }
