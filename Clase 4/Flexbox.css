@@ -1,0 +1,88 @@
+#bn-Inicio{
+    button{
+         background-color: rgb(255, 192, 84);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 70px;
+  padding: 5px;
+  border: none;
+}
+button:hover{
+  background-color: rgb(17, 74, 55);
+  color: antiquewhite;
+}
+}
+.flex-container {
+  position: relative;
+  display: flex;
+
+  flex-wrap: wrap; /* Los elementos se distribuirán en varias líneas si es necesario */
+
+  justify-content: space-around; /* Espacio alrededor de cada elemento */
+
+  align-items: center; /* Centra verticalmente los elementos en el eje cruzado */
+
+  gap: 15px; /* Espacio entre elementos */
+
+  background-color: #f4f4f4;
+
+  padding: 20px;
+
+}
+
+.item {
+
+  background-color: #007BFF;
+
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-radius: 5px;
+
+  width: 100px; /* Ancho inicial */
+
+  height: 50px; /* Altura fija para mantener la forma */
+
+}
+.lol {
+  position: sticky;
+  
+  top: 0;
+
+  background-color: #5fffcf;
+
+  color: rgb(0, 0, 0);
+
+  padding: 10px;
+
+  text-align: center;
+
+  z-index: 1;
+  
+  }
+  .fixed-contact {
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  background-color: #28a745;
+
+  color: white;
+
+  padding: 15px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+
+  font-size: 16px;
+  z-index: 2;
+}
